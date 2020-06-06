@@ -1,0 +1,42 @@
+[
+  {
+    "libraryIdentifier" : "e59e7d7395fdb377744fdb897514b99c",
+    "format" : "model",
+    "displayName" : "earth.usdz"
+  },
+  {
+    "libraryIdentifier" : "67123f2b9ba0cb38e7a48f2446743e10",
+    "format" : "model",
+    "displayName" : "Experience.reality"
+  },
+  {
+    "libraryIdentifier" : "eaf767cd9ee87c531dd4723c257e1df4",
+    "format" : "model",
+    "displayName" : "Experience.reality"
+  },
+  {
+    "libraryIdentifier" : "4bf6d2e6fc1d17b54e50d163e74b8bcd",
+    "format" : "model",
+    "displayName" : "Moon.usdz"
+  },
+  {
+    "libraryIdentifier" : "5fda10cc75e5acd6a5dc4a7eff43e2c6",
+    "format" : "model",
+    "displayName" : "Rain.usdz"
+  },
+  {
+    "libraryIdentifier" : "5fe8fcab89a59917888d9497c73e5b3d",
+    "format" : "model",
+    "displayName" : "Rain_3.usdz"
+  },
+  {
+    "libraryIdentifier" : "e58b89d2f908a5c450775ec6dae1c2fd",
+    "format" : "model",
+    "displayName" : "Rain_2.usdz"
+  },
+  {
+    "libraryIdentifier" : "959b1a7cfe020c54546e65639a8f5258",
+    "format" : "model",
+    "displayName" : "Rain_1.usdz"
+  }
+]

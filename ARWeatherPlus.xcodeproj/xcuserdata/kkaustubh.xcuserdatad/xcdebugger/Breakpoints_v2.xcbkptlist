@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "54C2ED5A-6BEC-4A8D-A7AC-A42CF366D689"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31D0147F-3EA1-46CF-9F3E-AC445C572B25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARWeatherPlus/Services/WeatherService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getWeather(city:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3775A5C4-04DD-47F7-B55A-E0B31F5078AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARWeatherPlus/AR/View/ARMainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "updateUIView(_:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C230E059-01CF-4441-9F0E-918B807C2D7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARWeatherPlus/AR/View/ARMainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "updateUIView(_:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7C26784-6A3E-432A-9532-4A31A58D8665"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARWeatherPlus/AR/Services/ARWeatherViewSceneAdapterService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "updateCityName(cityName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7C26784-6A3E-432A-9532-4A31A58D8665 - ecac7888902d2205"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARWeatherPlus.ARWeatherViewSceneAdapterService.updateCityName(cityName: Swift.String) -&gt; ()"
+                  moduleName = "ARWeatherPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kkaustubh/development/github-kaustubh57/ARWeatherPlus/ARWeatherPlus/AR/Services/ARWeatherViewSceneAdapterService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "C7C26784-6A3E-432A-9532-4A31A58D8665 - ecac7888902d2205"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARWeatherPlus.ARWeatherViewSceneAdapterService.updateCityName(cityName: Swift.String) -&gt; ()"
+                  moduleName = "ARWeatherPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kkaustubh/development/github-kaustubh57/ARWeatherPlus/ARWeatherPlus/AR/Services/ARWeatherViewSceneAdapterService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "2752">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86D49890-45DB-402C-86EF-E2405875374F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARWeatherPlus/AR/Services/ARWeatherViewSceneAdapterService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "updateTemperature(temperature:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "86D49890-45DB-402C-86EF-E2405875374F - f377d1a8c42440ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARWeatherPlus.ARWeatherViewSceneAdapterService.updateTemperature(temperature: Swift.String) -&gt; ()"
+                  moduleName = "ARWeatherPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kkaustubh/development/github-kaustubh57/ARWeatherPlus/ARWeatherPlus/AR/Services/ARWeatherViewSceneAdapterService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "752">
+               </Location>
+               <Location
+                  uuid = "86D49890-45DB-402C-86EF-E2405875374F - f377d1a8c42440ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARWeatherPlus.ARWeatherViewSceneAdapterService.updateTemperature(temperature: Swift.String) -&gt; ()"
+                  moduleName = "ARWeatherPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kkaustubh/development/github-kaustubh57/ARWeatherPlus/ARWeatherPlus/AR/Services/ARWeatherViewSceneAdapterService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "3012">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AB788C7-EC57-42FB-BE29-D1B56A800159"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARWeatherPlus/ViewModels/WeatherViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "fetchWeather(by:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05DF7BE8-DC92-4551-BA06-CCF647B61034"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARWeatherPlus/ViewModels/WeatherViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "fetchWeather(by:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

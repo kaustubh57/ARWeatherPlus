@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C91855E248AEA9A00F4CE87 /* ARWeatherViewSceneAdapterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91855D248AEA9A00F4CE87 /* ARWeatherViewSceneAdapterService.swift */; };
+		4C918560248AEC2800F4CE87 /* ARMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91855F248AEC2800F4CE87 /* ARMainView.swift */; };
 		4CE44F722486FEFF006396DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE44F712486FEFF006396DF /* AppDelegate.swift */; };
 		4CE44F742486FEFF006396DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE44F732486FEFF006396DF /* ContentView.swift */; };
 		4CE44F762486FEFF006396DF /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4CE44F752486FEFF006396DF /* Experience.rcproject */; };
 		4CE44F782486FF07006396DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE44F772486FF07006396DF /* Assets.xcassets */; };
 		4CE44F7B2486FF07006396DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE44F7A2486FF07006396DF /* Preview Assets.xcassets */; };
 		4CE44F7E2486FF07006396DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE44F7C2486FF07006396DF /* LaunchScreen.storyboard */; };
+		4CE44F8724870004006396DF /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE44F8624870004006396DF /* WeatherData.swift */; };
+		4CE44F8A248700A6006396DF /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE44F89248700A6006396DF /* WeatherService.swift */; };
+		4CE44F8D2487044E006396DF /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE44F8C2487044E006396DF /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C91855D248AEA9A00F4CE87 /* ARWeatherViewSceneAdapterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWeatherViewSceneAdapterService.swift; sourceTree = "<group>"; };
+		4C91855F248AEC2800F4CE87 /* ARMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMainView.swift; sourceTree = "<group>"; };
 		4CE44F6E2486FEFF006396DF /* ARWeatherPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARWeatherPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE44F712486FEFF006396DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CE44F732486FEFF006396DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		4CE44F7A2486FF07006396DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4CE44F7D2486FF07006396DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CE44F7F2486FF07006396DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE44F8624870004006396DF /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		4CE44F89248700A6006396DF /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		4CE44F8C2487044E006396DF /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C91855C248AE9B200F4CE87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4C91855D248AEA9A00F4CE87 /* ARWeatherViewSceneAdapterService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		4CE44F652486FEFF006396DF = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +74,12 @@
 		4CE44F702486FEFF006396DF /* ARWeatherPlus */ = {
 			isa = PBXGroup;
 			children = (
+				4CE44F8E24870937006396DF /* AR */,
+				4CE44F8B24870437006396DF /* ViewModels */,
+				4CE44F8824870093006396DF /* Services */,
+				4CE44F852486FFE9006396DF /* Models */,
 				4CE44F712486FEFF006396DF /* AppDelegate.swift */,
 				4CE44F732486FEFF006396DF /* ContentView.swift */,
-				4CE44F752486FEFF006396DF /* Experience.rcproject */,
 				4CE44F772486FF07006396DF /* Assets.xcassets */,
 				4CE44F7C2486FF07006396DF /* LaunchScreen.storyboard */,
 				4CE44F7F2486FF07006396DF /* Info.plist */,
@@ -73,6 +94,48 @@
 				4CE44F7A2486FF07006396DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CE44F852486FFE9006396DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CE44F8624870004006396DF /* WeatherData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CE44F8824870093006396DF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CE44F89248700A6006396DF /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4CE44F8B24870437006396DF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4CE44F8C2487044E006396DF /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4CE44F8E24870937006396DF /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				4C91855C248AE9B200F4CE87 /* Services */,
+				4CE44F8F24870944006396DF /* View */,
+				4CE44F752486FEFF006396DF /* Experience.rcproject */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		4CE44F8F24870944006396DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C91855F248AEC2800F4CE87 /* ARMainView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE44F8A248700A6006396DF /* WeatherService.swift in Sources */,
+				4CE44F8D2487044E006396DF /* WeatherViewModel.swift in Sources */,
+				4C91855E248AEA9A00F4CE87 /* ARWeatherViewSceneAdapterService.swift in Sources */,
+				4CE44F8724870004006396DF /* WeatherData.swift in Sources */,
+				4C918560248AEC2800F4CE87 /* ARMainView.swift in Sources */,
 				4CE44F742486FEFF006396DF /* ContentView.swift in Sources */,
 				4CE44F722486FEFF006396DF /* AppDelegate.swift in Sources */,
 				4CE44F762486FEFF006396DF /* Experience.rcproject in Sources */,
@@ -284,17 +352,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"ARWeatherPlus/Preview Content\"";
-				DEVELOPMENT_TEAM = HDA982VNA5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ARWeatherPlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.seahagen.ar.ARWeatherPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,17 +373,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"ARWeatherPlus/Preview Content\"";
-				DEVELOPMENT_TEAM = HDA982VNA5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ARWeatherPlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.seahagen.ar.ARWeatherPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

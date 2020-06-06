@@ -1,44 +1,41 @@
 //
 //  ContentView.swift
-//  ARWeatherPlus
+//  SwiftUIExperiment
 //
-//  Created by Kaustubh Kesarkar on 6/2/20.
+//  Created by Kaustubh Kesarkar on 6/1/20.
 //  Copyright © 2020 Kaustubh Kesarkar. All rights reserved.
 //
 
 import SwiftUI
-import RealityKit
 
-struct ContentView : View {
+struct ContentView: View {
+    
+    @EnvironmentObject var weatherVM: WeatherViewModel
+    
     var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
+        
+        VStack(alignment: .center) {
+            HStack{
+                TextField("Enter city name", text: self.$weatherVM.cityName) {
+                    self.weatherVM.search()
+                }
+                .frame(alignment: .center)
+                .padding()
+                .fixedSize()
+                
+            }
+            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 30, alignment: .center)
+            
+            ARMainView()
+            
+        }
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+        
     }
 }
 
-struct ARViewContainer: UIViewRepresentable {
-    
-    func makeUIView(context: Context) -> ARView {
-        
-        let arView = ARView(frame: .zero)
-        
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
-        
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
-        
-        return arView
-        
-    }
-    
-    func updateUIView(_ uiView: ARView, context: Context) {}
-    
-}
-
-#if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
-#endif
